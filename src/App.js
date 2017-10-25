@@ -7,10 +7,10 @@ import './App.css';
 
 const Feautures = ( {playList}) =>  {
   return (<div>
-    <div>
+    <div className="bienvenida text-center">
     <header>
         <ul className="main-nav">
-            <li><NavLink to={"/features"} exact path="/">Feautures</NavLink></li>
+            <li><NavLink to={"/feautures"} exact path="/">Feautures</NavLink></li>
             <li><NavLink to={"/genres"}>Genres Musica</NavLink></li> 
             <li><NavLink to={"/filtro"}>Filtro</NavLink></li>       
         </ul>
