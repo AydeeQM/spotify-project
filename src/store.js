@@ -1,12 +1,10 @@
 import createStore from 'redux-zero'
-import {image, audio, title} from './data'
+//import {image, audio, title} from './data'
+import {playList} from './data'
 
 const index = 0
 const initialState = {
-   index : index,
-   image: 'img/' + image[index],
-   audio: audio[index],
-   title: title[index],
+   playList: playList,
    marker: true,
 
 }
