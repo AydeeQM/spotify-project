@@ -1,9 +1,12 @@
 .playlist{
   margin: 20px;
+  display: inline-flex;
 }
 
 .bienvenida{
-  margin-top: 20px;
+  padding-top: 20px;
+  background-image: linear-gradient(rgb(73, 84, 69), rgb(7, 8, 6) 85%);
+  color: #fff;
 }
 .main-nav li {
   display: inline-block;
@@ -23,4 +26,8 @@
 .main-nav a.active, .main-nav a:hover {
   color: #fff;
   background: #39add1;
+}
+
+.title{
+  color: #fff;
 }
