@@ -1,3 +1,26 @@
 .playlist{
   margin: 20px;
 }
+
+.bienvenida{
+  margin-top: 20px;
+}
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  font-size: 1em;
+  color: #c50a0a;
+  padding: .2em .8em;
+  border-radius: .25em;
+  background: #eaebeb;
+  transition: .2s;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.main-nav a.active, .main-nav a:hover {
+  color: #fff;
+  background: #39add1;
+}
