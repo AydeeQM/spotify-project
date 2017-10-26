@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Feautures from './App';
-import Filtro from './Filtro';
+import Filtro from './filtro';
 import Genres from './Genres';
+import News from './news';
 import {Provider} from 'redux-zero/react'
 import store from './store'
 import registerServiceWorker from './registerServiceWorker';
@@ -15,6 +16,7 @@ const Index = () => (
          <Switch>
             <Route  exact path = "/" component={Feautures}/>
             <Route  exact path = "/feautures" component={Feautures}/>
+            <Route  exact path = "/news" component={News}/>
             <Route  exact path = "/filtro" component={Filtro}/>
             <Route  exact path = "/genres" component={Genres}/>
           </Switch>

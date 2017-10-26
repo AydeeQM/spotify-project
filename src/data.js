@@ -47,3 +47,50 @@ export const playList=[
                         title:"Nosostras 80s"
                        }
                     ];
+                
+
+export const playNews=[
+                        {
+                        id:0,
+                        image:"https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/08/23/18/taylor-swift-reputation.jpg",
+                        audio:"http://k1tbfzr5bv4catkk35y5rozn.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/The-Secret-audio-sample.mp3",
+                        artist:"De Taylor Swift",
+                        title:"Gorgeous",
+                        },
+                       
+                        {
+                         id:1,
+                         image:"http://cdn1.ipauta.com/wp-content/uploads/2017/10/Piso-21-%E2%80%93-D%C3%A9jala-Que-Vuelva-feat.-Manuel-Turizo.jpg",
+                         audio:"http://k1tbfzr5bv4catkk35y5rozn.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/The-Secret-audio-sample.mp3",
+                         artist:"De Piso 21",
+                         title:"Déjala que Vuelva",
+                        },
+                        {
+                         id:2,
+                         image:"http://globalcdn03.mundotkm.com/2017/10/CNCO-Mamita-Audio.jpg",
+                         audio:"http://k1tbfzr5bv4catkk35y5rozn.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/The-Secret-audio-sample.mp3",
+                         artist:"De CNCO",
+                         title:"Mamita",
+                        },
+                        {
+                         id:3,
+                         image:"http://www.officialcharts.com/media/653640/rita-ora-anywhere-single.jpg?width=500&height=500",
+                         audio:"http://k1tbfzr5bv4catkk35y5rozn.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/The-Secret-audio-sample.mp3",
+                         artist:"De Rita Ora",
+                         title:"Anywhere",
+                        },
+                        {
+                         id:4,
+                         image:"http://cdn1.ipauta.com/wp-content/uploads/2017/10/Piso-21-%E2%80%93-D%C3%A9jala-Que-Vuelva-feat.-Manuel-Turizo.jpg",
+                         audio:"http://k1tbfzr5bv4catkk35y5rozn.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/The-Secret-audio-sample.mp3",
+                         artist:"De Piso 21",
+                         title:"Déjala que Vuelva",
+                        },
+                        {
+                         id:5,
+                         image:"http://cdn1.ipauta.com/wp-content/uploads/2017/10/Piso-21-%E2%80%93-D%C3%A9jala-Que-Vuelva-feat.-Manuel-Turizo.jpg",
+                         audio:"http://k1tbfzr5bv4catkk35y5rozn.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/The-Secret-audio-sample.mp3",
+                         artist:"De Piso 21",
+                         title:"Déjala que Vuelva",
+                        }
+                     ];
