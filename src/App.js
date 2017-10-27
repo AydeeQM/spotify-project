@@ -11,7 +11,8 @@ const Feautures = ( {playList}) =>  {
     <header>
         <ul className="main-nav">
             <li><NavLink to={"/feautures"} exact path="/">Feautures</NavLink></li>
-            <li><NavLink to={"/genres"}>Genres Musica</NavLink></li> 
+            <li><NavLink to={"/genres"}>Genres Musica</NavLink></li>
+            <li><NavLink to={"/news"}>News</NavLink></li>  
             <li><NavLink to={"/filtro"}>Filtro</NavLink></li>       
         </ul>
     </header>
