@@ -33,7 +33,6 @@ const Feautures = ( {playList}) =>  {
         );
       })
     }
-    
      </div> 
   </div>)
   }
