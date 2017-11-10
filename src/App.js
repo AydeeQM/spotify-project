@@ -16,15 +16,20 @@ const Feautures = ( {playList}) =>  {
             <li><NavLink to={"/filtro"}>Filtro</NavLink></li>       
         </ul>
     </header>
+    <h1>Musica para todo los gustos...</h1>
     {
-      playList.map(playList=>{
+      playList.map((playList, index)=>{
         return(
-            <div className="col-md-3 playlist">
-              <img src={playList.image} width="150" height="150"/>
-              <audio src={playList.audio} controls ></audio>
+          <div key={index} className="playlist">
             <div>
-              {playList.title}
+              <img src={playList.image} width="150" height="150"/>
+            {/* <div>
+              <audio src={playList.audio} controls ></audio>
+            </div> */}
+            <div>
+              <NavLink className="title" to={playList.ruta}>{playList.title}</NavLink >
             </div>
+          </div>
           </div>
         );
       })
