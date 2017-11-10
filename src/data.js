@@ -57,6 +57,68 @@ export const playList=[
                        }
                     ];
 
+export const genresList = [
+    {
+        id: 1,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Latin"
+    },
+    {
+        id: 2,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Pop"
+    },
+    {
+        id: 3,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Mood"
+    },
+    {
+        id: 4,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Party"
+    },
+    {
+        id: 5,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"TeenZ"
+    },
+    {
+        id: 6,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Focus"
+    },
+    {
+        id: 7,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Rock"
+    },
+    {
+        id: 8,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Trending"
+    },
+    {
+        id: 9,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Chill"
+    },
+    {
+        id: 10,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Indie"
+    },
+    {
+        id: 11,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Electronic/Dance"
+    },
+    {
+        id: 12,
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        title:"Dinner"
+    }
+]
 export const playNews = [
     {
         id: 0,

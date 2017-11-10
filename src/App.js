@@ -4,7 +4,6 @@ import {connect} from 'redux-zero/react';
 import {Redirect, NavLink} from 'react-router-dom';
 import './App.css';
 
-
 const Feautures = ( {playList}) =>  {
   return (<div>
     <div className="bienvenida text-center">
