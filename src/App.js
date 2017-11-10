@@ -17,9 +17,9 @@ const Feautures = ( {playList}) =>  {
     </header>
     <h1>Musica para todo los gustos...</h1>
     {
-      playList.map(playList=>{
+      playList.map((playList, index)=>{
         return(
-          <div className="playlist">
+          <div key={index} className="playlist">
             <div>
               <img src={playList.image} width="150" height="150"/>
             {/* <div>
